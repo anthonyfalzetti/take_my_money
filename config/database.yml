@@ -1,0 +1,19 @@
+development:
+  adapter:  postgresql
+  host:     localhost
+  encoding: unicode
+  database: take_my_money_development
+  pool:     5
+  username: take_my_money_user
+  password: T@keMyM0n#y
+  template: template0
+
+test:
+  adapter:  postgresql
+  host:     localhost
+  encoding: unicode
+  database: take_my_money_test
+  pool:     5
+  username: take_my_money_user
+  password: T@keMyM0n#y
+  template: template0
